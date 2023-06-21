@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The ORBIT-uaries</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <div>
+          <img
+            src="images/telescope_logo.png"
+            alt="Cartoon telescope"
+            class="logo invert"
+          />
+        </div>
+      </nav>
+
+      <section class="coverpage center">
+        <div class="grid-container">
+          <h1 class="uppercase-text">
+            <span class="outline-text"
+              >The
+              <br />
+            </span>
+            Orbit<span class="outline-text">-uaries</span>
+          </h1>
+
+          <a href="#meaty_section" class="link-button link">
+            <p class="link-text">Get Started</p>
+          </a>
+
+          <!-- hidden on mobile -->
+          <div
+            class="subtitle desktop-only italicise"
+          >
+          <h3>A project built for juxtaposing space and earth stories.</h3>
+
+          <figure class="quote">
+            <blockquote>
+              'There is a theory which states that if ever anyone discovers
+            exactly what the Universe is for and why it is here, it will
+            instantly disappear and be replaced by something even more bizarre
+            and inexplicable. There is another theory which states that this has
+            already happened'.
+            </blockquote>
+            <figcaption>
+              <cite>&mdash; Douglas Adams</cite>
+            </figcaption>
+          </figure>
+          
+            
+        </div>
+
+          <a
+            href="#meaty_section"
+            class="link-arrow-container link desktop-only margin-center"
+          >
+            <p class="link-arrow">&darr;</p>
+          </a>
+
+          <!-- hidden on mobile -->
+          <p
+            class="side-text vertical-grid-side desktop-only italicise"
+            id="opener-side-text"
+          >
+            One small step for man...
+          </p>
+        </div>
+      </section>
+
+      <section class="meaty_section center" id="meaty_section">
+        <div class="grid-container">
+          <h2 id="date"></h2>
+
+          <p
+            class="side-text vertical-grid-side desktop-only italicise"
+            id="meaty-side-text"
+          >
+            Click on the headline to read the dispatch.
+          </p>
+
+          <div id="user-image-container" class="center square-image">
+            <div id="user-headline-container" class="center">
+              <p class="headline-text center-text" id="apiHeadline">
+                <!-- API HEADLINE -->Test
+              </p>
+            </div>
+          </div>
+
+          <form class="center-text">
+            <label for="formDate">Enter DATE</label>
+            <input
+              type="date"
+              name="formDate"
+              id="formDate"
+              min="2000-01-01"
+              
+              required
+            />
+
+            <label for="section">Select INTEREST</label>
+            <span class="row justify-space-between" id="articleSpan">
+              <input list="section" required id="articleSection" />
+              <datalist id="section" name="section">
+                <option value="General"></option>
+                <option value="Politics"></option>
+                <option value="Business"></option>
+                <option value="Sport"></option>
+                <option value="Culture"></option>
+                <option value="Technology"></option>
+                <option value="Science"></option>
+                <option value="Environment"></option>
+                <option value="Travel"></option>
+                <option value="Books"></option>
+                <option value="Music"></option>
+                <option value="Film"></option>
+                <option value="Television"></option>
+                <option value="Art and Design"></option>
+              </datalist>
+
+              <button type="button" id="clearButton">X</button>
+            </span>
+
+            <button type="submit" id="submitButton">COMPUTE RESULTS</button>
+          </form>
+
+          <p id="explanation" class="desktop-only">
+            Embark on an interstellar journey! Choose a date, select a news category, 
+            and hit submit to unveil what was happening in space and on Earth.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
