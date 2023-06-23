@@ -21,7 +21,7 @@
 
 ## Introduction:
          
-This repository holds a project built for juxtaposing space and earth stories and for practicing interacting with public APIs. Enter a date and a news category to generate the image. The APIs utlized in the website are NASA's apod API, The Guardian API, and Unsplash.<br>
+This repository holds a project built for juxtaposing space and earth stories, and for practicing interacting with public APIs. Enter a date and a news category to generate the image. The APIs utlized in the website are NASA's apod API, The Guardian API, and Unsplash.<br>
 
 <img width="100%" alt="image" src="images/websiteScreenshot.png">
 
