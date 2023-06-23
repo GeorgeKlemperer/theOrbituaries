@@ -1,4 +1,4 @@
-# HTTP Project: Space News Project
+# HTTP Project: The ORBIT-uaries
 
 <div align="center">
   <img src="https://cdn.pixabay.com/animation/2023/02/13/09/42/09-42-58-584_512.gif" width="300" height="300"/>
