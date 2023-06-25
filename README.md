@@ -1,4 +1,4 @@
-# HTTP Project: Space News Project
+# HTTP Project: The ORBIT-uaries
 
 <div align="center">
   <img src="https://cdn.pixabay.com/animation/2023/02/13/09/42/09-42-58-584_512.gif" width="300" height="300"/>
@@ -21,11 +21,11 @@
 
 ## Introduction:
          
-This repository holds a project built for juxtaposing space and earth stories and for practicing interacting with public APIs. Enter a date and a news category to generate the image. The APIs utlized in the website are NASA's apod API, The Guardian API, and Unsplash.<br>
+This repository holds a project built for juxtaposing space and earth stories, and for practicing interacting with public APIs. Enter a date and a news category to generate the image. The APIs utlized in the website are NASA's apod API, The Guardian API, and Unsplash.<br>
 
 <img width="100%" alt="image" src="images/websiteScreenshot.png">
 
-View web page here: <a href="https://isobelbutler.github.io/Space-News-Project/" target="blank">isobelbutler.github.io/Space-News-Project/.</a>
+View web page here: <a href="https://georgeklemperer.github.io/theOrbituaries/" target="blank">https://georgeklemperer.github.io/theOrbituaries/.</a>
 
 
 
