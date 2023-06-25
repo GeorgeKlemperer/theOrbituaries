@@ -42,6 +42,7 @@ function fetchAPOD(url, headingDate) {
     .then((data) => {
       const hdUrl = data.hdurl;
       const description = data.explanation;
+      console.log(data)
       if (hdUrl === undefined) {
         throw new Error("HD URL is undefined.");
       }
@@ -121,6 +122,7 @@ function fetchArticlesByDateAndSection(url, specificDate, articleFilter) {
     .then(handleResponse)
     .then((data) => {
       const results = data.response.results;
+      console.log(data);
       if (results.length > 0) {
         const headline = results[0].webTitle;
         const headlineUrl = results[0].webUrl;
